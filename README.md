@@ -4,7 +4,26 @@
 
 -   **Important: Select the Credentials tab and enter desired User/Pass**
 
--   Enter the name of Application "DevWorkstation-\<INITIALS\>
+![Alt text](images/Creds.png)
+
+-   Enter the name of Application "DevWorkstation-\<INITIALS\> and fill out the form with the requested information.  
+
+![Alt text](images/DevLaunch.png)
+
+    -   Enter Prism Central IP:
+
+    -   Enter Port:
+
+    -   Enter Prism Central Username:
+
+    -   Enter Prism Central Password:
+
+    -   Enter Project name:
+
+
+
+
+
 
 -   Press Create
 
@@ -36,15 +55,7 @@ height="1.4270833333333333in"}
     connection to Prism Central by running ```calm init dsl```. We can also
     run ```calm show config``` to verify the connection settings
 
-    -   Enter Prism Central IP:
 
-    -   Enter Port:
-
-    -   Enter Prism Central Username:
-
-    -   Enter Prism Central Password:
-
-    -   Enter Project name:
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image4.png){width="4.740780839895013in"
