@@ -123,7 +123,7 @@ For the next section we will modify the "pkg\_install\_task.sh"
 -   Run "more pkg\_install\_task.sh" to view the current contents of the
     install script
 
--   Run "curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx \> pkg\_install\_task.sh"
+-   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx \> pkg\_install\_task.sh```
 
 -   Run "more pkg\_install\_task.sh" to view the changed script
 
