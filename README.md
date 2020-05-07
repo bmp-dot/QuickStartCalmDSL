@@ -54,7 +54,7 @@ height="2.713286307961505in"}
 
 List the current blueprints in Calm
 
--   Run ```calm get bps`` and we see all the BPs in Calm with their
+-   Run ```calm get bps``` and we see all the blueprints in Calm with their
     UUID, description, application count, project, and state
 
 ![A screen shot of a computer Description automatically
