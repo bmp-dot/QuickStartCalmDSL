@@ -1,3 +1,7 @@
+## Setup
+
+To start the DSL lab we have provided a DevWorkstation.json blueprint to quickly get you started. The included DevWorkstation.json builds a CentOS VM with all the necessary tools.  This blueprint can be launched directly from Calm, but we recommend publishing it to the Calm Marketpkace for Self Service.  Also, included is the DevWorkstation icon.
+
 ## Launch DevWorkstation from Calm Marketplace
 
 ![Alt text](images/MPDevWorkstation.png)
