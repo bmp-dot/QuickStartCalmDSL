@@ -63,30 +63,29 @@
 
 -   Review the blueprint for familiar constructs.  To skip directly to a line enter ```:<linenumber>```
 
-    -   Credentials (line 54-69)
+    -   Credentials (line 54-60)
 
-    -   OS Image (line 62-65)
+    -   OS Image (line 62-66)
 
-    -   Under class HelloPackage(Package) you will see references to the scripts in the script directory (line 139)
+    -   Under class HelloPackage(Package) you will see references to the pkg\_install\_task.sh script in the scripts directory (line 139)
 
-    -   Basic VM spec information (vCPU/memory/nics) (line 153-159)
+    -   Basic VM spec information (vCPU/memory/disks/nics) (line 153-159)
 
-    -   Guest Customization contains cloud-init (line 161)
+    -   Guest Customization contains cloud-init (line 161-171)
 
 -   In the blueprint.py modify the number of vCPU
 
     -   Change the vCPU from 2 to 4 (line 154)
 
-![A picture containing drawing, food Description automatically
-generated](media/image8.png){width="6.5in"
-height="1.1340277777777779in"}
+
+![Alt text](images/vcpu.png)
 
 -   Add a unique VM name using a macro (line 185)
 
-    -   provider\_spec.name = \"\<Initials\>-@@{calm\_unique}@@\"
+    -   ```provider\_spec.name = \"\<Initials\>-@@{calm\_unique}@@\"```
 
-![](media/image9.png){width="6.525223097112861in"
-height="0.7223665791776028in"}
+
+![Alt text](images/vmname.png)
 
 -   Write/quit ```:wq``` the .py blueprint file to save and close
 
