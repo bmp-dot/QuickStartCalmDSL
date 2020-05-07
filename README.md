@@ -112,7 +112,7 @@
 
 -   Run ```calm create bp --file blueprint.py --name FromDSL-<Initials>```
 
-    -   This converts the .py file to json an pushes it to Calm
+    -   This converts the .py file to json and pushes it to Calm
 
 
 ![Alt text](images/syncbp.png)
@@ -139,12 +139,12 @@
 
 -   Run ```calm describe app AppFromDSL-<Initials>``` to see the application summary
 
+-   Once the app status changes to "running" we will have a nginx server deployed from Calm DSL!
+
 
 ![Alt text](images/describe.png)
 
--   Once the app status changes to "running" we will have a nginx server deployed from Calm DSL!
-
--   Run ```calm describe app AppFromDSL-<Initials> --out json | grep -F '[{\"ip\":\"'``` to get the IP
+-   Run ```calm describe app AppFromDSL-<Initials> --out json | grep -F '[{\"ip\":\"'``` to search the json output for the IP
 
 
 ![Alt text](images/getip.png)
