@@ -120,12 +120,12 @@ For the next section we will modify the "pkg\_install\_task.sh"
 -   Change to the scripts directory and perform an "ls". We will see 2
     scripts that are being referenced inside the .py file
 
--   Run "more pkg\_install\_task.sh" to view the current contents of the
-    install script
+-   Run ```more pkg\_install\_task.sh``` to view the current contents of the
+    install script.  What does this script do?
 
 -   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx \> pkg\_install\_task.sh```
 
--   Run "more pkg\_install\_task.sh" to view the changed script
+-   Run ```more pkg\_install\_task.sh``` to view the changed script.  What does the script do now?
 
 ![A close up of a logo Description automatically
 generated](media/image10.png){width="6.5in" height="1.03125in"}
