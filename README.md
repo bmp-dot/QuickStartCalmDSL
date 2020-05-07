@@ -113,17 +113,16 @@ height="1.1340277777777779in"}
 ![](media/image9.png){width="6.525223097112861in"
 height="0.7223665791776028in"}
 
--   Write/quit of the .py file
+-   Write/quit ```:wq``` the .py blueprint file to save and close
 
 For the next section we will modify ***pkg\_install\_task.sh***
 
--   Change to the scripts directory and perform an "ls". We will see 2
-    scripts that are being referenced inside the .py file
+-   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside the .py blueprint file
 
 -   Run ```more pkg_install_task.sh``` to view the current contents of the
     install script.  What does this script do?
 
--   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx > pkg_install_task.sh```
+-   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx > pkg_install_task.sh``` to replace the install script
 
 -   Run ```more pkg_install_task.sh``` to view the changed script.  What does the script do now?
 
@@ -138,14 +137,13 @@ Now we will upload the modified .py blueprint from Calm DSL to PC
 
     -   This converts the .py file to json an sync it with Calm
 
--   Optional: Run ```calm compile bp -f blueprint.py``` to view the json
-    format from DSL
+-   Optional: Run ```calm compile bp -f blueprint.py``` to view the json format from DSL
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image11.png){width="6.5in"
 height="0.8729166666666667in"}
 
--   Verify your new BP by running "calm get bps -q"
+-   Verify your new blueprint by running ```calm get bps -q```
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image12.png){width="5.67132874015748in"
@@ -177,24 +175,21 @@ height="2.3027777777777776in"}
 generated](media/image15.png){width="6.5in"
 height="3.9097222222222223in"}
 
--   Once the app status changes to "running" you will have a nginx
-    server deployed from Calm DSL
+-   Once the app status changes to "running" you will have a nginx server deployed from Calm DSL!
 
 Log into Prism Central to verify
 
--   You can see your blueprint created from DSL
+-   We can see the blueprint created from DSL
 
--   You can see your application launched from DSL
+-   We can see the application launched from DSL
 
-    -   On the application tab created from DSL select the "Services"
-        tab and copy the IP.
+    -   On the application tab created from DSL select the "Services" tab and copy the IP
 
 ![A close up of a logo Description automatically
 generated](media/image16.png){width="6.5in"
 height="1.3416666666666666in"}
 
--   Enter the IP in a web browser and this will take you to the nginx
-    "Welcome to DSL" web page.
+-   Enter the IP in a web browser and this will take you to the nginx ***"Welcome to DSL"*** web page
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image17.png){width="6.5in" height="3.8625in"}
