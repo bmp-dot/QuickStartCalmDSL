@@ -1,8 +1,6 @@
 ## Launch DevWorkstation from Calm Marketplace
 
-![A screenshot of a cell phone Description automatically
-generated](media/image1.png){width="2.2797200349956257in"
-height="1.871411854768154in"}
+.. figure:: images/MPDevWorkstation.png
 
 -   **Important: Select the Credentials tab and enter desired User/Pass**
 
@@ -54,8 +52,7 @@ height="2.713286307961505in"}
 
 ## List the current blueprints in Calm
 
--   Run ```calm get bps``` and we see all the blueprints in Calm with their
-    UUID, description, application count, project, and state
+-   Run ```calm get bps``` and we see all the blueprints in Calm with their UUID, description, application count, project, and state
 
 ![A screen shot of a computer Description automatically
 generated](media/image5.png){width="4.6433562992125985in"
@@ -69,13 +66,13 @@ height="2.0006944444444446in"}
 
 ## Review python based blueprint and make a modification
 
--   Change to the "HelloBlueprint" directory and do an "ls"
+-   Change to the "HelloBlueprint" directory and run ```ls```
 
-    -   This directory and it's contents were automatically created during the blueprint launch.  As part of the DevWorkstation blueprint launch we ran ```calm init bp``` which creates a sample blueprint configured with the connected Calm instance.
+    -   This directory and it's contents were automatically created during the blueprint launch.  As part of the DevWorkstation blueprint launch we ran ```calm init bp``` which creates a sample blueprint configured with the connected Calm instance
 
--   You will see "blueprint.py" which is a python version of a blueprint
+-   There is a file called "blueprint.py" which is a python version of a blueprint
 
--   You will also see a "scripts" directory. This is where all bash/powershell/python scripts are stored that are used within the blueprint
+-   There is a "scripts" directory. This is where the bash/powershell/python scripts are stored that are referenced within the blueprint
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image7.png){width="6.111805555555556in"
@@ -83,18 +80,17 @@ height="1.7902099737532808in"}
 
 -   Run ```vi blueprint.py```
 
--   Review the blueprint for familiar constructs
+-   Review the blueprint for familiar constructs.  To skip directly to a line enter ```:<linenumber>```
 
     -   Credentials (line 54-69)
 
     -   OS Image (line 62-65)
 
-    -   Under class HelloPackage(Package) you will see references to the
-        scripts in the script directory(line 139)
+    -   Under class HelloPackage(Package) you will see references to the scripts in the script directory (line 139)
 
     -   Basic VM spec information (vCPU/memory/nics) (line 153-159)
 
-    -   Guest Customization contains the cloud-init (line 161)
+    -   Guest Customization contains cloud-init (line 161)
 
 -   In the blueprint.py modify the number of vCPU
 
@@ -104,7 +100,7 @@ height="1.7902099737532808in"}
 generated](media/image8.png){width="6.5in"
 height="1.1340277777777779in"}
 
--   Add a unique VM name using macros (line 185)
+-   Add a unique VM name using a macro (line 185)
 
     -   provider\_spec.name = \"\<Initials\>-@@{calm\_unique}@@\"
 
