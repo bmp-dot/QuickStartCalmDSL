@@ -1,22 +1,22 @@
-Launch DevWorkstation from Calm Marketplace
+## Launch DevWorkstation from Calm Marketplace ##
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image1.png){width="2.2797200349956257in"
 height="1.871411854768154in"}
 
--   Select the Credentials tab and enter desired User/Pass ((important))
+-   **Important: Select the Credentials tab and enter desired User/Pass**
 
 -   Enter the name of Application "DevWorkstation-\<INITIALS\>
 
 -   Press Create
 
--   Review audit log to see packages being deployed
+-   Review audit log to see packages being deployed.  The blueprint automatically installs several utilities along with Calm DSL.
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image2.png){width="1.7756703849518811in"
 height="2.2632206911636046in"}
 
-Once application is in running state SSH to the DevWorkstation VM
+## Once application is in "running" state SSH to the DevWorkstation VM ##
 
 -   To get the IP address select to "Services" tab under the running
     application. Then select/highlight the service and the IP with show
@@ -26,7 +26,7 @@ Once application is in running state SSH to the DevWorkstation VM
 generated](media/image3.png){width="6.5in"
 height="1.4270833333333333in"}
 
-Start the virtual environment and connect to Prism Central
+## Start the virtual environment and connect to Prism Central ##
 
 -   cd to the "calm-dsl" directory from your home
 
