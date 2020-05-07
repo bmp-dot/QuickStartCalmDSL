@@ -18,17 +18,19 @@
 
 -   The IP address of the DevWorkstation is listed under the application overview.  The SSH user/pass is what was set under the credentials tab
 
+
 ![Alt text](images/IPaddress.png)
 
 ## Start the virtual environment and connect to Prism Central
 
 -   cd to the "calm-dsl" directory from home
 
--   Run ```source venv/bin/activate``` to switch to the virtual environment. This will enable the virtual environment and allow you to run Calm DSL
+-   Run ```source venv/bin/activate``` to switch to the virtual environment. This will enable the virtual environment for Calm DSL
 
 -   **Optional:** This has been done automatically through the blueprint launch. Once you SSH into the DevWorkstation we can setup the connection to Prism Central by running ```calm init dsl```. 
 
 -   Verify the current config settings by running ```calm show config``` 
+
 
 ![Alt text](images/Config.png)
 
@@ -36,15 +38,13 @@
 
 -   Run ```calm get bps``` and we see all the blueprints in Calm with their UUID, description, application count, project, and state
 
-![A screen shot of a computer Description automatically
-generated](media/image5.png){width="4.6433562992125985in"
-height="3.032568897637795in"}
+
+![Alt text](images/calmgetbps.png)
 
 -   Run ```calm get bps -q``` to display quiet output with only the BP names
 
-![A screenshot of a cell phone Description automatically
-generated](media/image6.png){width="4.916083770778653in"
-height="2.0006944444444446in"}
+
+![Alt text](images/calmgetbpsq.png)
 
 ## Review python based blueprint and make a modification
 
