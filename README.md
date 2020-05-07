@@ -1,4 +1,4 @@
-## Launch DevWorkstation from Calm Marketplace ##
+## Launch DevWorkstation from Calm Marketplace
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image1.png){width="2.2797200349956257in"
@@ -16,7 +16,7 @@ height="1.871411854768154in"}
 generated](media/image2.png){width="1.7756703849518811in"
 height="2.2632206911636046in"}
 
-## Once application is in "running" state SSH to the DevWorkstation VM ##
+## Once application is in "running" state SSH to the DevWorkstation VM
 
 -   To get the IP address select to "Services" tab under the running
     application. Then select/highlight the service and the IP with show
@@ -26,7 +26,7 @@ height="2.2632206911636046in"}
 generated](media/image3.png){width="6.5in"
 height="1.4270833333333333in"}
 
-## Start the virtual environment and connect to Prism Central ##
+## Start the virtual environment and connect to Prism Central
 
 -   cd to the "calm-dsl" directory from your home
 
@@ -52,7 +52,7 @@ height="1.4270833333333333in"}
 generated](media/image4.png){width="4.740780839895013in"
 height="2.713286307961505in"}
 
-List the current blueprints in Calm
+## List the current blueprints in Calm
 
 -   Run ```calm get bps``` and we see all the blueprints in Calm with their
     UUID, description, application count, project, and state
@@ -67,8 +67,7 @@ height="3.032568897637795in"}
 generated](media/image6.png){width="4.916083770778653in"
 height="2.0006944444444446in"}
 
-For the next section we will review a python based blueprint and make a
-modification
+## For the next section we will review a python based blueprint and make a modification
 
 -   Change to the "HelloBlueprint" directory and do an "ls"
 
@@ -115,7 +114,7 @@ height="0.7223665791776028in"}
 
 -   Write/quit ```:wq``` the .py blueprint file to save and close
 
-For the next section we will modify ***pkg\_install\_task.sh***
+## For the next section we will modify ***pkg\_install\_task.sh***
 
 -   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside the .py blueprint file
 
@@ -129,7 +128,7 @@ For the next section we will modify ***pkg\_install\_task.sh***
 ![A close up of a logo Description automatically
 generated](media/image10.png){width="6.5in" height="1.03125in"}
 
-Now we will upload the modified .py blueprint from Calm DSL to PC
+## Now we will sync the modified .py blueprint to Calm
 
 -   Return to the "HelloBlueprint" directory
 
@@ -149,7 +148,7 @@ height="0.8729166666666667in"}
 generated](media/image12.png){width="5.67132874015748in"
 height="2.4833333333333334in"}
 
-The next step is to take your blueprint and to launch into an application
+## Now take the blueprint and launch into an application
 
 -   Run ```calm get apps``` to verify all the current applications before
     launching your new app
@@ -176,7 +175,7 @@ height="3.9097222222222223in"}
 
 -   Once the app status changes to "running" we will have a nginx server deployed from Calm DSL!
 
-Log into Prism Central to verify
+## Log into Prism Central to verify
 
 -   We can see the blueprint created from DSL
 
