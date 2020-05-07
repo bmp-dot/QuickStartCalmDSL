@@ -6,40 +6,27 @@
 
 ![Alt text](images/Creds.png)
 
--   Enter the name of Application "DevWorkstation-\<INITIALS\> and fill out the form with the requested information.  
+-   Enter the name of Application "DevWorkstation-\<INITIALS\> and fill out the form with the requested information
 
 ![Alt text](images/DevLaunch.png)
 
 -   Press Create
 
--   Review audit log to see packages being deployed.  The blueprint automatically installs several utilities along with Calm DSL.
+-   While waiting review the audit log to see packages being deployed.  The blueprint automatically installs several utilities along with Calm DSL
 
-![A screenshot of a cell phone Description automatically
-generated](media/image2.png){width="1.7756703849518811in"
-height="2.2632206911636046in"}
+## Once the application is "running" SSH to the DevWorkstation
 
-## Once application is in "running" state SSH to the DevWorkstation VM
+-   The IP address of the DevWorkstation is listed under the application overview.  The SSH user/pass is what was set under the credentials tab
 
--   To get the IP address select to "Services" tab under the running
-    application. Then select/highlight the service and the IP with show
-    up on the right hand side
-
-![A close up of a logo Description automatically
-generated](media/image3.png){width="6.5in"
-height="1.4270833333333333in"}
+![Alt text](images/Creds.png)
 
 ## Start the virtual environment and connect to Prism Central
 
--   cd to the "calm-dsl" directory from your home
+-   cd to the "calm-dsl" directory from home
 
--   Run "source venv/bin/activate" to switch to the virtual environment.
-    You will now be able to run calm commands via command line
+-   Run ```source venv/bin/activate``` to switch to the virtual environment. This will enable the virtual environment and allow you to run Calm DSL
 
--   **Optional:** This has been done automatically through the Blueprint
-    Launch. Once you SSH into the DevWorkstation we can setup the
-    connection to Prism Central by running ```calm init dsl```. We can also
-    run ```calm show config``` to verify the connection settings
-
+-   **Optional:** This has been done automatically through the blueprint launch. Once you SSH into the DevWorkstation we can setup the connection to Prism Central by running ```calm init dsl```. We can also run ```calm show config``` to verify the current connection settings
 
 
 ![A screenshot of a cell phone Description automatically
