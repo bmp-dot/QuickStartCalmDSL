@@ -134,7 +134,7 @@ Now we will upload the modified .py blueprint from Calm DSL to PC
 
 -   Return to the "HelloBlueprint" directory
 
--   Run ```calm create bp --file blueprint.py --name FromDSL-<Initials\>```
+-   Run ```calm create bp --file blueprint.py --name FromDSL-<Initials>```
 
     -   This converts the .py file to json an sync it with Calm
 
@@ -154,10 +154,10 @@ height="2.4833333333333334in"}
 The next step is to take your blueprint and to launch into an
 application
 
--   Run "calm get apps" to verify all the current applications before
+-   Run ```calm get apps``` to verify all the current applications before
     launching your new app
 
-    -   You can also run "calm get apps -q" for less details
+    -   You can also run ```calm get apps -q``` to quiet the details like we did with blueprints earlier
 
 ![A screen shot of a computer Description automatically
 generated](media/image13.png){width="6.5in"
@@ -165,15 +165,13 @@ height="2.6881944444444446in"}
 
 -   Next launch your newly uploaded BP
 
-    -   "calm launch bp \<blueprint\_name\> \--app\_name
-        AppFromDSL-\<Initials\> -i"
+-   Run ```calm launch bp <blueprint_name> --app_name AppFromDSL-<Initials> -i```
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image14.png){width="6.5in"
 height="2.3027777777777776in"}
 
--   Run "calm describe app AppFromDSL-\<Initials\>" to see the
-    application summary of your launch
+-   Run ```calm describe app AppFromDSL-<Initials>``` to see the application summary
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image15.png){width="6.5in"
