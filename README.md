@@ -67,7 +67,7 @@ height="3.032568897637795in"}
 generated](media/image6.png){width="4.916083770778653in"
 height="2.0006944444444446in"}
 
-## Review a python based blueprint and make a modification
+## Review python based blueprint and make a modification
 
 -   Change to the "HelloBlueprint" directory and do an "ls"
 
@@ -114,7 +114,7 @@ height="0.7223665791776028in"}
 
 -   Write/quit ```:wq``` the .py blueprint file to save and close
 
-## Modify ***pkg\_install\_task.sh***
+## Modify pkg\_install\_task.sh
 
 -   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside the .py blueprint file
 
