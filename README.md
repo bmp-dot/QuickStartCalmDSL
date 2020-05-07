@@ -10,21 +10,6 @@
 
 ![Alt text](images/DevLaunch.png)
 
-    -   Enter Prism Central IP:
-
-    -   Enter Port:
-
-    -   Enter Prism Central Username:
-
-    -   Enter Prism Central Password:
-
-    -   Enter Project name:
-
-
-
-
-
-
 -   Press Create
 
 -   Review audit log to see packages being deployed.  The blueprint automatically installs several utilities along with Calm DSL.
