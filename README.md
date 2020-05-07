@@ -35,8 +35,8 @@ Start the virtual environment and connect to Prism Central
 
 -   **Optional:** This has been done automatically through the Blueprint
     Launch. Once you SSH into the DevWorkstation we can setup the
-    connection to Prism Central by running "calm init dsl". We can also
-    run "calm show config" to verify the connection settings
+    connection to Prism Central by running ```calm init dsl```. We can also
+    run ```calm show config``` to verify the connection settings
 
     -   Enter Prism Central IP:
 
@@ -149,8 +149,7 @@ height="0.8729166666666667in"}
 generated](media/image12.png){width="5.67132874015748in"
 height="2.4833333333333334in"}
 
-The next step is to take your blueprint and to launch into an
-application
+The next step is to take your blueprint and to launch into an application
 
 -   Run ```calm get apps``` to verify all the current applications before
     launching your new app
@@ -161,7 +160,7 @@ application
 generated](media/image13.png){width="6.5in"
 height="2.6881944444444446in"}
 
--   Next launch your newly uploaded BP
+-   Next launch your newly uploaded blueprint into an application
 
 -   Run ```calm launch bp <blueprint_name> --app_name AppFromDSL-<Initials> -i```
 
@@ -175,7 +174,7 @@ height="2.3027777777777776in"}
 generated](media/image15.png){width="6.5in"
 height="3.9097222222222223in"}
 
--   Once the app status changes to "running" you will have a nginx server deployed from Calm DSL!
+-   Once the app status changes to "running" we will have a nginx server deployed from Calm DSL!
 
 Log into Prism Central to verify
 
@@ -189,7 +188,7 @@ Log into Prism Central to verify
 generated](media/image16.png){width="6.5in"
 height="1.3416666666666666in"}
 
--   Enter the IP in a web browser and this will take you to the nginx ***"Welcome to DSL"*** web page
+-   Enter the IP in a web browser and this will take you to the nginx **"Welcome to DSL"** web page
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image17.png){width="6.5in" height="3.8625in"}
