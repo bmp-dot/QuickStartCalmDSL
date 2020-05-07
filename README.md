@@ -67,7 +67,7 @@ height="3.032568897637795in"}
 generated](media/image6.png){width="4.916083770778653in"
 height="2.0006944444444446in"}
 
-## For the next section we will review a python based blueprint and make a modification
+## Review a python based blueprint and make a modification
 
 -   Change to the "HelloBlueprint" directory and do an "ls"
 
@@ -114,7 +114,7 @@ height="0.7223665791776028in"}
 
 -   Write/quit ```:wq``` the .py blueprint file to save and close
 
-## For the next section we will modify ***pkg\_install\_task.sh***
+## Modify ***pkg\_install\_task.sh***
 
 -   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside the .py blueprint file
 
@@ -128,7 +128,7 @@ height="0.7223665791776028in"}
 ![A close up of a logo Description automatically
 generated](media/image10.png){width="6.5in" height="1.03125in"}
 
-## Now we will sync the modified .py blueprint to Calm
+## Sync the modified .py blueprint to Calm
 
 -   Return to the "HelloBlueprint" directory
 
@@ -148,7 +148,7 @@ height="0.8729166666666667in"}
 generated](media/image12.png){width="5.67132874015748in"
 height="2.4833333333333334in"}
 
-## Now take the blueprint and launch into an application
+## Take the blueprint and launch into an application
 
 -   Run ```calm get apps``` to verify all the current applications before
     launching your new app
