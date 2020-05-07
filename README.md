@@ -71,22 +71,21 @@ height="2.0006944444444446in"}
 
 -   Change to the "HelloBlueprint" directory and do an "ls"
 
-    -   This was automatically created during the blueprint launch.
+    -   This directory and it's contents were automatically created during the blueprint launch.  As part of the DevWorkstation blueprint launch we ran ```calm init bp``` which creates a sample blueprint configured with the connected Calm instance.
 
 -   You will see "blueprint.py" which is a python version of a blueprint
 
--   You will also see a "scripts" directory. This is where all
-    bash/powershell/python is stored for the blueprint
+-   You will also see a "scripts" directory. This is where all bash/powershell/python scripts are stored that are used within the blueprint
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image7.png){width="6.111805555555556in"
 height="1.7902099737532808in"}
 
--   Run "vi blueprint.py"
+-   Run ```vi blueprint.py```
 
--   Review the blueprint and you will see some familiar constructs
+-   Review the blueprint for familiar constructs
 
-    -   SSH Credentials (line 54-69)
+    -   Credentials (line 54-69)
 
     -   OS Image (line 62-65)
 
