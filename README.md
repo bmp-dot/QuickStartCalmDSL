@@ -106,26 +106,23 @@
 
 ![Alt text](images/more2.png)
 
-
-## Sync the modified blueprint.py to Calm
+## Push the modified blueprint.py to Calm
 
 -   Return to the "HelloBlueprint" directory
 
 -   Run ```calm create bp --file blueprint.py --name FromDSL-<Initials>```
 
-    -   This converts the .py file to json an sync it with Calm
+    -   This converts the .py file to json an pushes it to Calm
 
--   Optional: Run ```calm compile bp -f blueprint.py``` to view the json format from DSL
 
-![A screenshot of a cell phone Description automatically
-generated](media/image11.png){width="6.5in"
-height="0.8729166666666667in"}
+![Alt text](images/syncbp.png)
 
--   Verify your new blueprint by running ```calm get bps -q```
+-   **Optional:** Run ```calm compile bp -f blueprint.py``` to view the json format from DSLfiromfg
 
-![A screenshot of a cell phone Description automatically
-generated](media/image12.png){width="5.67132874015748in"
-height="2.4833333333333334in"}
+-   Verify your new blueprint by running ```calm get bps -q | grep FromDSL-<Initials>```
+
+
+![Alt text](images/verifygrep.png)
 
 ## Take the blueprint and launch into an application
 
