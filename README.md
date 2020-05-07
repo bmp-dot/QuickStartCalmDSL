@@ -1,6 +1,6 @@
 ## Launch DevWorkstation from Calm Marketplace
 
-.. figure:: images/MPDevWorkstation.png
+![Alt text](images/MPDevWorkstation.png)
 
 -   **Important: Select the Credentials tab and enter desired User/Pass**
 
