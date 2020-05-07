@@ -97,13 +97,12 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 -   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside blueprint.py
 
--   Run ```cat pkg_install_task.sh``` to view the current contents of the
-    install script.  What does this script do?
+-   Run ```cat pkg_install_task.sh``` to view the current contents of the install script.  What does the script do?
 
 
 ![Alt text](images/more1.png)
 
--   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx > pkg_install_task.sh``` to replace the install script
+-   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx > pkg_install_task.sh``` to replace the existing install script
 
 -   Run ```cat pkg_install_task.sh``` to view the changed script.  What does the script do now?
 
