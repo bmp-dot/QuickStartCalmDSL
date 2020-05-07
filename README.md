@@ -115,7 +115,7 @@ height="0.7223665791776028in"}
 
 -   Write/quit of the .py file
 
-For the next section we will modify the "pkg\_install\_task.sh"
+For the next section we will modify ***pkg\_install\_task.sh***
 
 -   Change to the scripts directory and perform an "ls". We will see 2
     scripts that are being referenced inside the .py file
@@ -123,7 +123,7 @@ For the next section we will modify the "pkg\_install\_task.sh"
 -   Run ```more pkg_install_task.sh``` to view the current contents of the
     install script.  What does this script do?
 
--   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx \> pkg_install_task.sh```
+-   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx > pkg_install_task.sh```
 
 -   Run ```more pkg_install_task.sh``` to view the changed script.  What does the script do now?
 
@@ -134,9 +134,9 @@ Now we will upload the modified .py blueprint from Calm DSL to PC
 
 -   Return to the "HelloBlueprint" directory
 
--   Run "calm create bp \--file blueprint.py \--name FromDSL-\<Initials\>"
+-   Run ```calm create bp --file blueprint.py --name FromDSL-<Initials\>```
 
-    -   This converts the .py file to json on PC
+    -   This converts the .py file to json an sync it with Prism Centeral
 
 -   Optional: Run "calm compile bp -f blueprint.py to view the json
     format from DSL
