@@ -54,14 +54,14 @@ height="2.713286307961505in"}
 
 List the current blueprints in Calm
 
--   Run "calm get bps" and you will see all the BPs in Calm with their
+-   Run ```calm get bps`` and we see all the BPs in Calm with their
     UUID, description, application count, project, and state
 
 ![A screen shot of a computer Description automatically
 generated](media/image5.png){width="4.6433562992125985in"
 height="3.032568897637795in"}
 
--   Run "calm get bps -q" to display quiet output with only the BP names
+-   Run ```calm get bps -q``` to display quiet output with only the BP names
 
 ![A screenshot of a cell phone Description automatically
 generated](media/image6.png){width="4.916083770778653in"
@@ -136,9 +136,9 @@ Now we will upload the modified .py blueprint from Calm DSL to PC
 
 -   Run ```calm create bp --file blueprint.py --name FromDSL-<Initials\>```
 
-    -   This converts the .py file to json an sync it with Prism Centeral
+    -   This converts the .py file to json an sync it with Calm
 
--   Optional: Run "calm compile bp -f blueprint.py to view the json
+-   Optional: Run ```calm compile bp -f blueprint.py``` to view the json
     format from DSL
 
 ![A screenshot of a cell phone Description automatically
