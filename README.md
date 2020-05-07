@@ -82,7 +82,7 @@
 
 -   Add a unique VM name using a macro (line 185)
 
-    -   ```provider\_spec.name = \"\<Initials\>-@@{calm\_unique}@@\"```
+    -   ```provider_spec.name = "<Initials>-@@{calm_unique}@@"```
 
 
 ![Alt text](images/vmname.png)
