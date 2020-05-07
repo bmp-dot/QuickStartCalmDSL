@@ -50,15 +50,14 @@
 
 -   Change to the "HelloBlueprint" directory and run ```ls```
 
-    -   This directory and it's contents were automatically created during the blueprint launch.  As part of the DevWorkstation blueprint launch we ran ```calm init bp``` which creates a sample blueprint configured with the connected Calm instance
+    -   This directory and it's contents were automatically created during the blueprint launch.  As part of the DevWorkstation blueprint launch we ran ```calm init bp``` which creates a sample blueprint configured to the connected Calm instance
 
 -   There is a file called "blueprint.py" which is a python version of a blueprint
 
 -   There is a "scripts" directory. This is where the bash/powershell/python scripts are stored that are referenced within the blueprint
 
-![A screenshot of a cell phone Description automatically
-generated](media/image7.png){width="6.111805555555556in"
-height="1.7902099737532808in"}
+
+![Alt text](images/hellols.png)
 
 -   Run ```vi blueprint.py```
 
