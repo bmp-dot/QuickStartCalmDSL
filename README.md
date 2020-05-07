@@ -18,7 +18,7 @@
 
 -   The IP address of the DevWorkstation is listed under the application overview.  The SSH user/pass is what was set under the credentials tab
 
-![Alt text](images/Creds.png)
+![Alt text](images/IPAddress.png)
 
 ## Start the virtual environment and connect to Prism Central
 
