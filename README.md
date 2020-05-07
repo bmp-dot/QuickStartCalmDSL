@@ -26,12 +26,11 @@
 
 -   Run ```source venv/bin/activate``` to switch to the virtual environment. This will enable the virtual environment and allow you to run Calm DSL
 
--   **Optional:** This has been done automatically through the blueprint launch. Once you SSH into the DevWorkstation we can setup the connection to Prism Central by running ```calm init dsl```. We can also run ```calm show config``` to verify the current connection settings
+-   **Optional:** This has been done automatically through the blueprint launch. Once you SSH into the DevWorkstation we can setup the connection to Prism Central by running ```calm init dsl```. 
 
+-   Verify the current config settings by running ```calm show config``` 
 
-![A screenshot of a cell phone Description automatically
-generated](media/image4.png){width="4.740780839895013in"
-height="2.713286307961505in"}
+![Alt text](images/Config.png)
 
 ## List the current blueprints in Calm
 
