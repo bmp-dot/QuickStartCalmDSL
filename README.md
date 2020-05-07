@@ -39,7 +39,7 @@
 -   Run ```calm get bps``` and we see all the blueprints in Calm with their UUID, description, application count, project, and state
 
 
-![Alt text](images/calmgebps.png)
+![Alt text](images/getbps.png)
 
 -   Run ```calm get bps -q``` to display quiet output with only the BP names
 
