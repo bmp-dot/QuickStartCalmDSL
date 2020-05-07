@@ -91,19 +91,23 @@
 
 ## Modify pkg\_install\_task.sh
 
--   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside the .py blueprint file
+-   Change to the scripts directory and run ```ls```. We will see 2 scripts that are being referenced inside blueprint.py
 
--   Run ```more pkg_install_task.sh``` to view the current contents of the
+-   Run ```cat pkg_install_task.sh``` to view the current contents of the
     install script.  What does this script do?
+
+
+![Alt text](images/more1.png)
 
 -   Run ```curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx > pkg_install_task.sh``` to replace the install script
 
--   Run ```more pkg_install_task.sh``` to view the changed script.  What does the script do now?
+-   Run ```cat pkg_install_task.sh``` to view the changed script.  What does the script do now?
 
-![A close up of a logo Description automatically
-generated](media/image10.png){width="6.5in" height="1.03125in"}
 
-## Sync the modified .py blueprint to Calm
+![Alt text](images/more2.png)
+
+
+## Sync the modified blueprint.py to Calm
 
 -   Return to the "HelloBlueprint" directory
 
