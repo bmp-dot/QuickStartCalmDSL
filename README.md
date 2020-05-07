@@ -123,10 +123,7 @@ For the next section we will modify the "pkg\_install\_task.sh"
 -   Run "more pkg\_install\_task.sh" to view the current contents of the
     install script
 
--   Run "curl -Sks
-    https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx
-
-\> pkg\_install\_task.sh"
+-   Run "curl -Sks https://raw.githubusercontent.com/bmp-ntnx/prep/master/nginx \> pkg\_install\_task.sh"
 
 -   Run "more pkg\_install\_task.sh" to view the changed script
 
@@ -137,8 +134,7 @@ Now we will upload the modified .py blueprint from Calm DSL to PC
 
 -   Return to the "HelloBlueprint" directory
 
--   Run "calm create bp \--file blueprint.py \--name
-    FromDSL-\<Initials\>"
+-   Run "calm create bp \--file blueprint.py \--name FromDSL-\<Initials\>"
 
     -   This converts the .py file to json on PC
 
