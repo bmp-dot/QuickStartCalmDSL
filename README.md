@@ -124,46 +124,37 @@
 
 ![Alt text](images/verifygrep.png)
 
-## Take the blueprint and launch into an application
+## Launch the blueprint into an application
 
--   Run ```calm get apps``` to verify all the current applications before
-    launching your new app
+-   Run ```calm get apps``` to verify all the current applications before launching your new app
 
-    -   You can also run ```calm get apps -q``` to quiet the details like we did with blueprints earlier
+    -   We can also run ```calm get apps -q``` to quiet the details like we did with blueprints earlier
 
-![A screen shot of a computer Description automatically
-generated](media/image13.png){width="6.5in"
-height="2.6881944444444446in"}
+-   Launch your newly uploaded blueprint into an application
 
--   Next launch your newly uploaded blueprint into an application
+-   Run ```calm launch bp FromDSL-<Initials> --app_name AppFromDSL-<Initials> -i```
 
--   Run ```calm launch bp <blueprint_name> --app_name AppFromDSL-<Initials> -i```
 
-![A screenshot of a cell phone Description automatically
-generated](media/image14.png){width="6.5in"
-height="2.3027777777777776in"}
+![Alt text](images/launchbp.png)
 
 -   Run ```calm describe app AppFromDSL-<Initials>``` to see the application summary
 
-![A screenshot of a cell phone Description automatically
-generated](media/image15.png){width="6.5in"
-height="3.9097222222222223in"}
+
+![Alt text](images/describe.png)
 
 -   Once the app status changes to "running" we will have a nginx server deployed from Calm DSL!
+
+-   Run ```calm describe app AppFromDSL-<Initials> --out json | grep -F '[{\"ip\":\"'``` to get the IP
+
+
+![Alt text](images/getip.png)
+
+-   Enter the IP in a web browser and this will take you to the nginx **"Welcome to DSL"** web page
+
+![Alt text](images/welcome.png)
 
 ## Log into Prism Central to verify
 
 -   We can see the blueprint created from DSL
 
 -   We can see the application launched from DSL
-
-    -   On the application tab created from DSL select the "Services" tab and copy the IP
-
-![A close up of a logo Description automatically
-generated](media/image16.png){width="6.5in"
-height="1.3416666666666666in"}
-
--   Enter the IP in a web browser and this will take you to the nginx **"Welcome to DSL"** web page
-
-![A screenshot of a cell phone Description automatically
-generated](media/image17.png){width="6.5in" height="3.8625in"}
