@@ -172,15 +172,15 @@ Speaking of git lets contiue on and push our blueprint to git.  We will need a g
 
 -   Logon to git and create new repo "dsl-blueprints"
 
--   From the "HelloBlueprint" diretory run:
+-   From the "HelloBlueprint" directory run:
 
     - ```echo "# dsl-blueprints" >> README.md``` to create a README
 
     - ```git init``` initialize git in your working directory 
 
-    - ```git config --global user.email "<youremail>@example.com"```  since this is your first time using git from this system
+    - ```git config --global user.email "<youremail>@example.com"```  identify yourself
 
-    - ```git config --global user.name "<GitUserName>"``` since this is your first time using git from this system
+    - ```git config --global user.name "<GitUserName>"``` identify yourself
 
     - ```git config --global color.ui true``` because colors are cool
 
@@ -219,4 +219,16 @@ Speaking of git lets contiue on and push our blueprint to git.  We will need a g
 
     ![Alt text](images/gitpush.png)
 
-     -  Check your github repo and verify your files were pushed.  Now your blueprints exists in Calm and github
+     -  Check your github repo and verify your files were pushed.  Now that your blueprints exists in both Calm and github lets increase the memory to 8 in the blueprint by running:
+
+        - ```sed -i 's/memory = 4/memory = 8/g' blueprint.py``` use the linux sed tool to change the memory config
+
+        - ```git add blueprint.py```
+
+        - ```git commit -m "change memory"```
+
+        - ```git push -u origin master```
+
+    - Back in github we have a new verion under "history" of blueprint.py with the changed memory
+
+    ![Alt text](images/diff.png)
