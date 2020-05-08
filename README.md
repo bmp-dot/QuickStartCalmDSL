@@ -31,7 +31,7 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 -   Run ```source venv/bin/activate``` to switch to the virtual environment. This will enable the virtual environment for Calm DSL
 
--   **Optional:** This has been done automatically through the blueprint launch. Once you SSH into the DevWorkstation we can setup the connection to Prism Central by running ```calm init dsl```. 
+-   **Optional:** This has already been done automatically through the blueprint launch. Once you SSH into the DevWorkstation we can setup the connection to Prism Central by running ```calm init dsl```
 
 -   Verify the current config settings by running ```calm show config``` 
 
