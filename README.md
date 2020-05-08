@@ -147,7 +147,7 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 ![Alt text](images/describe.png)
 
--   Run ```calm describe app AppFromDSL-<Initials> --out json | grep -F '[{\"ip\":\"'``` to search the json output for the IP
+-   Run ```calm describe app AppFromDSL-<Initials> --out json | grep -F '[{\"ip\":\"'``` to search the json output for the VM IP
 
 
 ![Alt text](images/getip.png)
