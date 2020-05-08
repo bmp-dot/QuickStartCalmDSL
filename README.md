@@ -164,4 +164,4 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 ## Lookback
 
-As you went through this lab not only did you use Calm DSL, but you also used several native Linux tools such as vi, curl, grep, cat, pipe, and redirects.  Calm DSL allows extended felxibily by combining it with these powerful tools.  Think about how you can add git to this workflow to clone reops and push back your changes! 
+As you went through this lab not only did you use Calm DSL, but you also used several native Linux tools such as vi, curl, grep, cat, pipe, and redirects.  Calm DSL allows extended felxibily by combining it with these powerful tools.  Think about how you can add git to this workflow to clone reops and push your changes! 
