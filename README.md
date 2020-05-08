@@ -158,6 +158,10 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 ## Log into Prism Central to verify
 
--   We can see the blueprint created from DSL
+-   Check the blueprint created from DSL
 
--   We can see the application launched from DSL
+-   Check the application launched from DSL
+
+## Lookback
+
+As you went through this lab not only did you use Calm DSL, but you also used several native Linux tools such as vi, curl, grep, cat, pipe, and redirects.  Calm DSL allows extended felxibily by combing it with these powerful native tools.  
