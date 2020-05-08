@@ -154,7 +154,7 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 -   Enter the IP in a web browser and this will take you to the nginx **"Welcome to DSL"** web page
 
-![Alt text](images/welcome.png)
+![Alt text](images/welcome2.png)
 
 ## Log into Prism Central to verify
 
