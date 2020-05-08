@@ -229,6 +229,6 @@ Speaking of git lets contiue on and push our blueprint to git.  We will need a g
 
         - ```git push -u origin master```
 
-    - Back in github we have a new verion under "history" of blueprint.py with the changed memory
+    - Back in github there is a new verion under the "history" of blueprint.py with the changed memory
 
     ![Alt text](images/diff.png)
