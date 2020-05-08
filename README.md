@@ -120,7 +120,7 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 ![Alt text](images/syncbp.png)
 
--   **Optional:** Run ```calm compile bp -f blueprint.py``` to view the json format from DSLfiromfg
+-   **Optional:** Run ```calm compile bp -f blueprint.py``` to view the python blueprint in json format from DSL
 
 -   Verify your new blueprint by running ```calm get bps -q | grep FromDSL-<Initials>```
 
