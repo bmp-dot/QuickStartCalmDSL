@@ -153,7 +153,8 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 -   ```calm describe app AppFromDSL-<Initials> --out json | jq '.status.resources.deployment_list[].substrate_configuration.element_list[].address'```
 
 
-![Alt text](images/getip.png)
+<!--- ![Alt text](images/getip.png) --->
+![Alt text](images/jqout.png)
 
 -   Enter the IP in a web browser and this will take you to the nginx **"Welcome to DSL"** web page
 
