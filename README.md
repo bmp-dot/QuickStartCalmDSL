@@ -162,6 +162,61 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 -   Check the application launched from DSL
 
-## Lookback
+## Looking back
 
 As you went through this lab not only did you use Calm DSL, but you also used several native Linux tools such as vi, curl, grep, cat, pipe, and redirects.  Calm DSL allows extended felxibily by combining it with these powerful tools.  Think about how you can add git to this workflow to clone reops and push your changes! 
+
+## Optional: Getting started with git
+
+Speaking of git lets contiue on and push our blueprint to git.  We will need a github.com account before you can get started.  
+
+-   Logon to git and create new repo "dsl-blueprints"
+
+-   From the "HelloBlueprint" diretory run:
+
+    - ```echo "# dsl-blueprints" >> README.md``` to create a README
+
+    - ```git init``` initialize git in your working directory 
+
+    - ```git config --global user.email "<youremail>@example.com"```  since this is your first time using git from this system
+
+    - ```git config --global user.name "<GitUserName>"``` since this is your first time using git from this system
+
+    - ```git config --global color.ui true``` because colors are cool
+
+    - ```git remote add origin https://github.com/<GitUserName>/dsl-blueprints.git``` to add your new github repo
+
+    - ```git remote -v``` to verify your remote origin
+
+
+    ![Alt text](images/gitsetup.png)
+
+    - ```git status``` to see whats being tracked
+
+    - ```git add --all``` adds all files in the current directory into staging
+
+    - ```git status``` to see the change after adding the files
+
+
+    ![Alt text](images/gitstatus.png)
+
+    - From the above output we can see there are some keys so lets remove those since this is being pushed to a public repo
+
+        - ```git rm --cached .local -r```
+
+        - ```git status``` to verify they were removed 
+
+
+        ![Alt text](images/gitremove.png)
+
+    - ```git commit -m "My DSL blueprints"``` to commit the files
+
+
+     ![Alt text](images/gitcommit.png)
+
+     - ```git push -u origin master``` to push to git.  You will be prompted for your user/pass unless you setup key access to github
+
+
+     ![Alt text](images/gitpush.png)
+
+     -  Check your github repo and verify your files were pushed.  Now your blueprints exists in Calm and github
