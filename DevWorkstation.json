@@ -320,7 +320,7 @@
                     "kind": "app_package",
                     "type": "",
                     "name": "CentOS_7_Cloud",
-                    "uuid": "1e2e2e2a-f54d-fa2c-7c43-9056d2e52e8f"
+                    "uuid": "9fd0a28f-908b-41a6-a5f7-ce4130d7d662"
                   },
                   "type": "",
                   "disk_size_mib": 0,
@@ -445,7 +445,7 @@
                   "state": "ACTIVE",
                   "attrs": {
                     "exit_status": [],
-                    "script": "sudo yum -y install git\nsudo yum -y install gcc\nsudo yum -y install openssl-devel\ngit clone https://github.com/nutanix/calm-dsl.git",
+                    "script": "sudo yum -y install git\nsudo yum -y install gcc\nsudo yum -y install jq\nsudo yum -y install openssl-devel\ngit clone https://github.com/nutanix/calm-dsl.git",
                     "script_type": "sh",
                     "type": "",
                     "command_line_args": "",
@@ -520,7 +520,7 @@
                   "message_list": [],
                   "child_tasks_local_reference_list": [],
                   "name": "setup_pc_connection",
-                  "state": "NOT_VALIDATED",
+                  "state": "ACTIVE",
                   "attrs": {
                     "exit_status": [],
                     "script": "cd calm-dsl\nsource venv/bin/activate\ncalm init dsl -i @@{PrismCentral_IP}@@ -P @@{PrismCentral_Port}@@ -u @@{PrismCentral_User}@@ -p @@{PrismCentral_Password}@@ -pj @@{CalmProject}@@\ncalm init bp",
@@ -592,7 +592,11 @@
             "name": "CentOS_7_Cloud",
             "resources": {
               "image_type": "DISK_IMAGE",
-              "checksum": {},
+              "checksum": {
+                "checksum_algorithm": "",
+                "type": "",
+                "checksum_value": ""
+              },
               "source_uri": "http://download.nutanix.com/calm/CentOS-7-x86_64-GenericCloud.qcow2",
               "version": {
                 "product_version": "7",
@@ -718,14 +722,14 @@
       },
       "type": "USER"
     },
-    "name": "DevWorkstation"
+    "name": "DevWorkstation-v2"
   },
   "api_version": "3.0",
   "metadata": {
-    "last_update_time": "1588200998134850",
+    "last_update_time": "1588955847418515",
     "kind": "blueprint",
-    "spec_version": 34,
-    "creation_time": "1588114675961831",
-    "name": "DevWorkstation"
+    "spec_version": 3,
+    "creation_time": "1588955620648263",
+    "name": "DevWorkstation-v2"
   }
 }

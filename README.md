@@ -148,7 +148,9 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 ![Alt text](images/describe.png)
 <!--- -   Run ```calm describe app AppFromDSL-<Initials> --out json | grep -F '[{\"ip\":\"'``` to search the json output for the VM IP --->
 
--   Run ```calm describe app AppFromDSL-<Initials> --out json | jq '.status.resources.deployment_list[].substrate_configuration.element_list[].address'```
+-   Now we need to get the VM/Application IP address.  To get this we will pull the "address" from the application json output using jq
+
+-   ```calm describe app AppFromDSL-<Initials> --out json | jq '.status.resources.deployment_list[].substrate_configuration.element_list[].address'```
 
 
 ![Alt text](images/getip.png)
