@@ -168,7 +168,7 @@ As you went through this lab not only did you use Calm DSL, but you also used se
 
 ## Optional: Getting started with git
 
-Speaking of git lets contiue on and push our blueprint to git.  We will need a github.com account before you can get started.  
+Speaking of git lets contiue on and push our blueprint to git.  We will need a github.com account before you can get started
 
 -   Logon to git and create new repo "dsl-blueprints"
 
@@ -202,21 +202,21 @@ Speaking of git lets contiue on and push our blueprint to git.  We will need a g
 
     - From the above output we can see there are some keys so lets remove those since this is being pushed to a public repo
 
-        - ```git rm --cached .local -r```
+    - ```git rm --cached .local -r```
 
-        - ```git status``` to verify they were removed 
+    - ```git status``` to verify they were removed 
 
 
-        ![Alt text](images/gitremove.png)
+    ![Alt text](images/gitremove.png)
 
     - ```git commit -m "My DSL blueprints"``` to commit the files
 
 
-     ![Alt text](images/gitcommit.png)
+    ![Alt text](images/gitcommit.png)
 
      - ```git push -u origin master``` to push to git.  You will be prompted for your user/pass unless you setup key access to github
 
 
-     ![Alt text](images/gitpush.png)
+    ![Alt text](images/gitpush.png)
 
      -  Check your github repo and verify your files were pushed.  Now your blueprints exists in Calm and github
