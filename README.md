@@ -168,7 +168,7 @@ To start the DSL lab we have provided a [DevWorkStation.json](https://raw.github
 
 ## Looking back
 
-As you went through this lab not only did you use Calm DSL, but you also used several native Linux tools such as vi, curl, grep, cat, pipe, and redirects.  Calm DSL allows extended felxibily by combining it with these powerful tools.  Think about how you can add git to this workflow to track changes or modify blueprints with sed
+As we went through this module not only we you use Calm DSL, but we also used several native Linux tools such as vi, curl, grep, cat, pipe, and redirects.  Calm DSL allows extended felxibily by combining it with these powerful tools.  Think about how we can add git to this workflow to track changes or modify blueprints with sed
 
 ## Optional: Getting started with git
 
@@ -238,3 +238,5 @@ Speaking of git lets contiue on and push our blueprint to git.  We will need a g
     ![Alt text](images/diff.png)
 
     ## Looking back
+
+    As you went through this module we pushed our original blueprint to Git and we made edits to that blueprint using sed.  Then we pushed the blueprint back to Git where we started mainitaing different versions.
